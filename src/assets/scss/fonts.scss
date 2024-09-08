@@ -1,0 +1,106 @@
+@import 'mixins';
+@import 'extensions';
+@import 'variables';
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('../fonts/Inter-Regular.woff') format('woff');
+  src: url('../fonts/Inter-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../fonts/Inter-Bold.woff') format('woff');
+  src: url('../fonts/Inter-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+//цифры
+
+@mixin l1($color, $text-align) {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  @include text(117px, 140.77px, $color, $text-align);
+}
+
+@mixin l2($color, $text-align) {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  @include text(78px, 93.84px, $color, $text-align);
+}
+
+//заголовки
+
+@mixin h1($color, $text-align) {
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
+  @include text(78px, 93.84px, $color, $text-align);
+}
+
+@mixin h2($color, $text-align) {
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
+  @include text(55px, 66.17px, $color, $text-align);
+}
+
+@mixin h3($color, $text-align) {
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
+  @include text(24px, 36px, $color, $text-align);
+}
+
+@mixin h4($color, $text-align) {
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
+  @include text(18px, 27px, $color, $text-align);
+}
+
+@mixin h5($color, $text-align) {
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
+  @include text(16px, 24px, $color, $text-align);
+}
+
+@mixin h6($color, $text-align) {
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
+  @include text(14px, 21px, $color, $text-align);
+}
+
+//просто текст
+
+@mixin t1($color, $text-align) {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  @include text(18px, 27px, $color, $text-align);
+}
+
+@mixin t2($color, $text-align) {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  @include text(16px, 24px, $color, $text-align);
+}
+
+@mixin t3($color, $text-align) {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  @include text(14px, 21px, $color, $text-align);
+}
+
+@mixin t4($color, $text-align) {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  @include text(13px, 19px, $color, $text-align);
+}
+
+@mixin t5($color, $text-align) {
+  font-family: 'Inter-Regular', 'Arial', 'Helvetica', sans-serif;
+  @include text(12px, 18px, $color, $text-align);
+}
+
+//высокий регистр
+
+@mixin u1($color, $text-align) {
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
+  @include text(18px, 27px, $color, $text-align);
+  text-transform: uppercase;
+}
+
+@mixin u2($color, $text-align) {
+  font-family: 'Inter-Bold', 'Arial', 'Helvetica', sans-serif;
+  @include text(14px, 21px, $color, $text-align);
+  text-transform: uppercase;
+}
