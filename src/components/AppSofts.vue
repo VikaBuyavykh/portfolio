@@ -137,16 +137,6 @@ function openDialog() {
     max-height: 80vh;
     object-fit: contain;
     object-position: center;
-
-    @include media_lg {
-      max-width: 90vw;
-      max-height: 90vh;
-    }
-
-    @include media_md {
-      max-width: 98vw;
-      max-height: 98vh;
-    }
   }
 }
 </style>

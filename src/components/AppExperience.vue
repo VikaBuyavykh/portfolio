@@ -11,7 +11,7 @@ import { list } from '@/utils/experienceList'
         <li v-for="item in list" :key="item.number" class="experience--list-item">
           <span class="experience--list-item-number">{{ item.number }}</span>
           <h3 class="experience--list-item-title">
-            <a :href="item.link" target="_blank" :style="{ color: item.color }">{{
+            <a :href="item.link" :target="item.target" :style="{ color: item.color }">{{
               item.company
             }}</a
             >, {{ item.post }}

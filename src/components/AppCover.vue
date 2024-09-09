@@ -41,15 +41,13 @@
     grid-template-columns: 1.5fr 2fr;
 
     @include media_xl {
-      padding-block: 100px 40px;
-    }
-
-    @include media_xl {
+      padding-block: 67px 40px;
       grid-template-columns: 1fr 2fr;
     }
 
     @include media_sm {
       width: 100%;
+      padding-block-start: 53px;
       grid-template: 1.25fr 1fr / 1fr;
       gap: 24px;
     }

@@ -69,8 +69,11 @@ function handleClick() {
   }
 
   &--name {
-    padding-block: 24px;
     @include h6($text, left);
+
+    @include media_sm {
+      padding-block: 16px;
+    }
   }
 
   &--button {

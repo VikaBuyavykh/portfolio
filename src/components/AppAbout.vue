@@ -95,6 +95,14 @@ defineEmits(['choose'])
   &--text {
     width: 70%;
     @include t1($light-grey, left);
+
+    @include media_lg {
+      width: 90%;
+    }
+
+    @include media_sm {
+      width: 100%;
+    }
   }
 
   &--buttons {

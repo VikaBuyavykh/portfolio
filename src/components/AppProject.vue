@@ -118,7 +118,7 @@ const bigImgPath = computed(
   &--techs {
     margin-block-start: 4px;
     width: 100%;
-    @include t5(rgba($primary, 0.4), left);
+    @include t3($light-grey, left);
   }
 
   &--links {
