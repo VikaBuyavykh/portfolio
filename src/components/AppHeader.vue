@@ -72,7 +72,7 @@ function handleClick() {
     @include h6($text, left);
 
     @include media_sm {
-      padding-block: 16px;
+      padding-block: 24px;
     }
   }
 
