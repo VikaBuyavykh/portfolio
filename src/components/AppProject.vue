@@ -108,7 +108,7 @@ const bigImgPath = computed(
   }
 
   &--desc {
-    @include t3($light-grey, stretch);
+    @include t3($light-grey, left);
 
     @include media_xl {
       @include t5($light-grey, left);
@@ -119,6 +119,10 @@ const bigImgPath = computed(
     margin-block-start: 4px;
     width: 100%;
     @include t3($light-grey, left);
+
+    @include media_xl {
+      @include t5($light-grey, left);
+    }
   }
 
   &--links {

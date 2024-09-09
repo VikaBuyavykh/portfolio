@@ -22,7 +22,8 @@ function openDialog() {
         <p class="softs--text">
           В последний день работы на предыдущем месте коллеги оставили свои мысли обо мне на
           стикерах в Miro. Мне не стыдно поделиться этими стикерами с вами.
-          <span>Клинкните по скрину</span>, чтобы приблизить.
+          <span class="softs--text-link" @click="openDialog">Клинкните по скрину</span>, чтобы
+          приблизить.
         </p>
         <p class="softs--text">
           Отмечу лишь, что самые часто встречающися качества -
@@ -103,6 +104,11 @@ function openDialog() {
 
     span {
       color: $primary;
+    }
+
+    &-link {
+      cursor: pointer;
+      @extend %hoverOpacity;
     }
   }
 

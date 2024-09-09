@@ -40,7 +40,7 @@ function menuHandler() {
   })
 }
 
-const debouncedMenuHandler = debounce(menuHandler, 50)
+const debouncedMenuHandler = debounce(menuHandler, 25)
 
 export function useMenu() {
   return {
