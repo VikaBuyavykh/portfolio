@@ -1,6 +1,21 @@
 export const projects = [
   {
     img: {
+      big: 'film-big.jpg',
+      small: 'film.jpg',
+      alt: 'Скрин главной страницы веб-приложения Film'
+    },
+    name: 'FILM | Онлайн-сервис по покупке билетов в кино',
+    desc: 'Первая проба Vue. Возможности: вывод актуальных сеансов, просмотр подробной инфо о выбранной ленте, выбор даты и места, удаление билетов из корзины, оформление заказа',
+    techs: ['Vue 3', 'Composition API', 'Vue Router', 'TailwindCSS', 'Axios'],
+    links: {
+      deploy: 'https://vue-film.vercel.app/',
+      rep: 'https://github.com/VikaBuyavykh/vue-film',
+      layout: null
+    }
+  },
+  {
+    img: {
       big: 'avion-big.jpg',
       small: 'avion.jpg',
       alt: 'Скрин главной страницы веб-приложения Avion'
@@ -28,17 +43,18 @@ export const projects = [
   },
   {
     img: {
-      big: 'film-big.jpg',
-      small: 'film.jpg',
-      alt: 'Скрин главной страницы веб-приложения Film'
+      big: 'mesto-big.jpg',
+      small: 'mesto.jpg',
+      alt: 'Скрин главной страницы веб-приложения Mesto'
     },
-    name: 'FILM | Онлайн-сервис по покупке билетов в кино',
-    desc: 'Первая проба Vue. Возможности: вывод актуальных сеансов, просмотр подробной инфо о выбранной ленте, выбор даты и места, удаление билетов из корзины, оформление заказа',
-    techs: ['Vue 3', 'Composition API', 'Vue Router', 'TailwindCSS', 'Axios'],
+    name: 'MESTO | Приложение фотоконтента',
+    desc: 'Учебный проект в Яндекс.Практикуме. Возможности: регистрация, авторизация, редактирование профиля, добавление/удаление/увеличение фотокарточки, лайки/дизлайки.',
+    techs: ['React', 'Vite', 'Fetch API', 'БЭМ', 'Figma', 'PerfectPixel'],
     links: {
-      deploy: 'https://vue-film.vercel.app/',
-      rep: 'https://github.com/VikaBuyavykh/vue-film',
-      layout: null
+      deploy:
+        'https://vk.com/away.php?to=https%3A%2F%2Fmesto-project-buyavykh.vercel.app%2F&cc_key=',
+      rep: 'https://github.com/VikaBuyavykh/react-mesto-auth',
+      layout: 'https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1'
     }
   },
   {
@@ -56,22 +72,6 @@ export const projects = [
       rep: 'https://github.com/VikaBuyavykh/movies-explorer-frontend/tree/main',
       layout:
         'https://www.figma.com/file/6FMWkB94wE7KTkcCgUXtnC/%25D0%2594%25D0%25B8%25D0%25BF%25D0%25BB%25D0%25BE%25D0%25BC%25D0%25BD%25D1%258B%25D0%25B9-%25D0%25BF%25D1%2580%25D0%25BE%25D0%25B5%25D0%25BA%25D1%2582?type=design&node-id=1-8436&mode=design'
-    }
-  },
-  {
-    img: {
-      big: 'mesto-big.jpg',
-      small: 'mesto.jpg',
-      alt: 'Скрин главной страницы веб-приложения Mesto'
-    },
-    name: 'MESTO | Приложение фотоконтента',
-    desc: 'Учебный проект в Яндекс.Практикуме. Возможности: регистрация, авторизация, редактирование профиля, добавление/удаление/увеличение фотокарточки, лайки/дизлайки.',
-    techs: ['React', 'Vite', 'Fetch API', 'БЭМ', 'Figma', 'PerfectPixel'],
-    links: {
-      deploy:
-        'https://vk.com/away.php?to=https%3A%2F%2Fmesto-project-buyavykh.vercel.app%2F&cc_key=',
-      rep: 'https://github.com/VikaBuyavykh/react-mesto-auth',
-      layout: 'https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1'
     }
   }
 ]

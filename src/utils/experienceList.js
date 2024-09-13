@@ -20,9 +20,9 @@ export const list = [
   {
     number: '03',
     company: 'Яндекс.Практикум',
-    link: 'https://capsbold.com/',
+    link: 'https://practicum.yandex.ru/frontend-developer/',
     target: '_blank',
-    post: 'React разработчик (обучение)',
+    post: 'Frontend разработчик (обучение)',
     text: 'Под присмотром опытных наставников и ревьюеров создавала проекты, часть из которых вы увидите ниже',
     color: '#5221e6'
   },
