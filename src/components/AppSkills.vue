@@ -27,9 +27,9 @@ import webpackIcon from '@/assets/icons/webpack.svg'
       <li class="skills--section">
         <h3 class="skills--name">Верстка</h3>
         <p class="skills--text">
-          Макеты верстаю по Figme с расширением Perfect Pixel. Со всей нежностью использую
-          препроцессор SASS(предпочитаю SCSS). Могу и люблю верстать по БЭМ, хотя подход Atomic CSS
-          (Tailwind) знаком и люб мне тоже
+          При написании адаптивной и семантической верстки работаю с Figma, в браузере - с
+          расширением Perfect Pixel. Со всей нежностью использую препроцессор SASS(SCSS). Могу и
+          люблю верстать по БЭМ, хотя Tailwind CSS знаком и люб мне тоже
         </p>
         <ul class="skills--list">
           <li class="skills--list-item"><img :src="htmlIcon" alt="Icon of html" /></li>
@@ -60,8 +60,8 @@ import webpackIcon from '@/assets/icons/webpack.svg'
       <li class="skills--section">
         <h3 class="skills--name">Среда</h3>
         <p class="skills--text">
-          В качестве редактора кода использую VSCode. Система контроля версий Git и платформа Github
-          - знаю, умею, практикую
+          В качестве редактора кода использую VSCode, cистема контроля версий - Git, платформа
+          управления репозиторями - Github
         </p>
         <ul class="skills--list">
           <li class="skills--list-item"><img :src="vscodeIcon" alt="Icon of vscode" /></li>
@@ -72,8 +72,8 @@ import webpackIcon from '@/assets/icons/webpack.svg'
       <li class="skills--section">
         <h3 class="skills--name">Backend</h3>
         <p class="skills--text">
-          В Яндекс.Практикуме успела познакомиться с основами бекэнда. И хотя все ВМ, к которым были
-          подрублены проекты в Яндексе, отключены (сейчас я пользуюсь сервисами генерации REST API),
+          В Яндекс.Практикуме познакомилась с основами бекэнда. И хотя все ВМ, к которым были
+          подрублены учебные проекты, отключены (сейчас я пользуюсь сервисами генерации REST API),
           репозитории с собственным кодом бекэнда работ запушены на GH
         </p>
         <ul class="skills--list">
